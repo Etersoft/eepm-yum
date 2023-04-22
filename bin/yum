@@ -205,7 +205,7 @@ check_command()
         ;;
     shell | sh)               # HELPCMD: Run an interactive yum shell
         # TODO: not full compatible
-        apt-shell
+        a= apt-shell
         ;;
     update)                   # HELPCMD: Update a package or packages on your system
         epm_cmd=install
